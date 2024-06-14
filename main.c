@@ -25,6 +25,7 @@ int main()
 	}
 
 	free(buf);
+	cJSON_Delete(json);
 
 	return 0;
 }
